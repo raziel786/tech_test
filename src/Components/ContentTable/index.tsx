@@ -18,6 +18,9 @@ const styles = {
     color: "white",
     fontWeight: "bold",
   },
+  background: {
+    backgroundColor: "grey",
+  },
 } as const;
 
 type Props = {
@@ -38,11 +41,7 @@ const ContentTable: React.FC<Props> = ({
     <TableContainer>
       <Table>
         <TableHead>
-          <TableRow
-            style={{
-              backgroundColor: "grey",
-            }}
-          >
+          <TableRow style={styles.background}>
             <TableCell style={styles.bold}>Name</TableCell>
             <TableCell style={styles.bold}>Gender</TableCell>
             <TableCell style={styles.bold}>Home Planet</TableCell>
