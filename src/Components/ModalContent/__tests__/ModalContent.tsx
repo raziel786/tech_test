@@ -55,18 +55,4 @@ describe("Modal Content Component", () => {
       testRenderer.root.findAllByProps({ className: "modal-content" }).length
     ).toBe(0);
   });
-  // it("Expect data to be populated when modalIsOpen is `true`", async () => {
-  //   const props = {
-  //     modalIsOpen: true,
-  //     detailedInformation: dummyData[0],
-  //   };
-  //   let testRenderer;
-  //   await renderer.act(async () => {
-  //     testRenderer = renderer.create(<ModalContent {...props} />);
-  //   });
-  //   const component = testRenderer.root;
-  //   expect(
-  //     component.findByProps({ className: "modal-content" }).children.length
-  //   ).not.toBe(0);
-  // });
 });
