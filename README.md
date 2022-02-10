@@ -1,4 +1,4 @@
-# Tech Test
+# Sample Project
 
 # Installation
 
